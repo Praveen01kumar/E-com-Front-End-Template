@@ -1,0 +1,118 @@
+*{
+    font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+}
+.main_nav{
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_nav .nav-item {
+    position: relative;
+    margin: 0 20px;
+}
+
+.main_nav li a {
+    color: #457B9D;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 36px 12.33px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.main_nav li a:hover{
+    color: #182933;
+}
+
+.main_nav .nav-item .active{
+    color: #FF5A5A;
+}
+
+.header-search-box{
+    background-color: transparent;
+    margin-right: 81px;
+    max-width: 230px;
+    position: relative;
+    width: 100%;
+}
+.form-control{
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid #E63946;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #1D3557;
+    height: 40px;
+    width: 100%;
+    padding: 5px 55px 7px 29px;
+}
+.header-search-box .btn-src {
+    background-color: transparent;
+    border: none;
+    color: #FF5A5A;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 53px;
+    transform: translate(0, -50%);
+}
+.header-action-cart{
+    background-color: transparent;
+    border: none;
+    color: #457B9D;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    text-transform: uppercase;
+}
+.cart-icon{
+    margin-left: 11px;
+    position: relative;
+    top: -2px;
+}
+.cart-icon svg{
+    fill: #FF3D3D;
+}
+@media only screen and (max-width: 991px){
+.header-area {
+    padding: 18px 0;
+}
+
+}
+.btn-src1{
+    background-color: transparent;
+    border: none;
+    color: #FF5A5A;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 53px;
+}
+@media only screen and (max-width: 1199px){
+.header-search-box {
+    margin-right: 23px;
+}
+}
+@media only screen and (min-width: 280px) and (max-width: 460px){
+    .navbar-expand-lg{
+            justify-content: center !important;
+     }
+     .col-auto1{
+        width: 35% !important;
+     }
+     .col-auto1, .col-auto2{
+    padding: 0px !important;
+
+     }
+     .navbar-brand img{
+         width: 80%;
+     }
+    }

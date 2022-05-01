@@ -93,6 +93,7 @@
         text-decoration: none;
     }
 }
+
 .content_section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -309,34 +310,133 @@
         &:hover {
             transform: scale(1.05);
             transition: transform 0.5s;
-            
+
         }
+
         transition: 0.5s all ease-in-out;
         width: 100%;
     }
 
 }
-.product-banner-item{
+
+.product-banner-item {
     border-radius: 37px;
     overflow: hidden;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
     padding: 1.5rem;
 }
-.product-collection-item{
+
+.product-collection-item {
     border-radius: 34px;
     overflow: hidden;
+
     img {
         &:hover {
             transform: scale(1.05);
             transition: transform 0.5s;
             cursor: pointer;
-            
+
         }
+
         transition: 0.5s all ease-in-out;
     }
-    .collecimg{
-        width: 100%!important;
+
+    .collecimg {
+        width: 100% !important;
         height: auto;
+    }
+}
+
+.blog_content_img {
+    padding: 0px 20px;
+
+    .bg-successes {
+        overflow: hidden;
+        border-radius: 30px;
+    }
+
+    img {
+        width: 100%;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: transform 0.5s;
+            cursor: pointer;
+
+        }
+
+        transition: 0.5s all ease-in-out;
+    }
+
+}
+
+.blog_content_des {
+
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 25px;
+        margin-top: 1px;
+        font-family: "Playfair Display", serif;
+        color: #1D3557;
+        display: inline-block;
+
+        &:hover {
+            color: #ff5a5a;
+            cursor: pointer;
+            transition: transform 0.5s;
+        }
+
+        transition: 0.5s all ease-in-out;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        color: #1D3557;
+        font-weight: 500;
+        font-size: 14px;
+
+        &:hover {
+            color: #ff5a5a;
+            cursor: pointer;
+        }
+    }
+
+    margin-top: 33px;
+}
+
+.blog_content_auth {
+    .auth_thumbnail {
+        width: fit-content;
+        margin-right: 14px;
+    }
+
+    span {
+        margin-left: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 30px;
+
+        &:hover {
+            color: #ff5a5a;
+            cursor: pointer;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #1D3557;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif, Arial;
+
+        &:hover {
+            color: #ff5a5a;
+            cursor: pointer;
+        }
     }
 }

@@ -440,3 +440,130 @@
         }
     }
 }
+
+.Connect_with_us {
+    background-image: url("../../../../../assets/home image/Connect with us/bg1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    border-radius: 20px;
+    .Connect_with_input {
+        padding: 48px 0 87px 170px;
+    }
+    h1 {
+        font-size: 36px;
+        margin-bottom: 23px;
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        line-height: 1.2;
+        margin-top: 0;
+        color: #1D3557;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 23px;
+        font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #457B9D;
+    }
+
+    .inputemailarea {
+        position: relative;
+        input {
+            width: 100%;
+            box-shadow: none;
+            border: 2px solid #28a745;
+            border-radius: 3px 20px 3px 3px;
+            font-size: 12px;
+            color: #1D3557;
+            height: 50px;
+            width: 100%;
+            padding: 7px 58px 7px 29px;
+
+            &:focus {
+                color: #28a745;
+                outline: none;
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: auto;
+            right: 6px;
+            cursor: pointer;
+            background-color: #28a745;
+            border: 1px solid #28a745;
+            border-radius: 30px 30px 3px 30px;
+            color: #fff;
+            height: 40px;
+            padding: 0;
+            display: inline-block;
+            font-size: 13px;
+            line-height: 40px;
+            margin: 0;
+            top: 50%;
+            width: 40px;
+            transform: translate(0, -50%);
+        }
+    }
+}
+@media screen and (max-width:991px) {
+    .Connect_with_us {
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Connect_with_us {
+        .Connect_with_input {
+            padding: 48px 0px 87px 120px;
+        }
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .Connect_with_us {
+        .Connect_with_input {
+            padding: 48px 0px 87px 80px;
+        }
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width:320px) {
+    .Connect_with_us {
+        background-position: center;
+        .Connect_with_input {
+            padding: 48px 0px 87px 14px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.footer_section{
+    height: 400px;
+    margin-top: 30px;
+    background: #F7F8F9;
+    border-radius: 100px 100px 0px 0px;
+}

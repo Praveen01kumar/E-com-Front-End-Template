@@ -562,8 +562,46 @@
     }
 }
 .footer_section{
-    height: 400px;
     margin-top: 30px;
     background: #F7F8F9;
     border-radius: 100px 100px 0px 0px;
+    .footer-head{
+        padding: 103px 0 60px;
+        display: flex;
+        flex-direction: row !important;
+    }
+    .about_description{
+        background-color: #198754;
+        
+    }
+    .Ecommerce_description{
+background-color: #1D3557;
+    }
+    .Support_description{
+background-color: #A8DADC;
+    }
+    .Products_description{
+background-color: #FF5A5A;
+    }
+   
+}
+.coupyright{
+    svg{
+        color: #E63946;
+        font-size: 13px;
+    }
+    span{
+        font-size: 14px;
+        color: #1D3557;
+    }
+    a{
+        line-height: inherit;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            color: #ff5a5a;
+            transition: 0.5s ease;
+        }
+    }
 }

@@ -571,17 +571,86 @@
         flex-direction: row !important;
     }
     .about_description{
-        background-color: #198754;
+        .img{
+            display: inline-block;
+            margin-bottom: 40px;
+            img{
+                height: auto;
+                max-width: 100%;
+            }
+        }
+        p{
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 33px;
+            max-width: 250px;
+    
+        }
+        .social-icons{
+            display: flex;
+            font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.75;
+        visibility: visible;
+        color: #457B9D;
+        svg{
+            color: #457B9D;
+        font-size: 19px;
+        line-height: inherit;
+        cursor: pointer;
+        text-decoration: none;
+        margin:0 20px 20px 20px;
+        }
+        }
         
     }
     .Ecommerce_description{
-background-color: #1D3557;
+        h4{
+            font-size: 24px;
+            margin-bottom: 39px;
+            padding-bottom: 17px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            color: #1D3557;
+        }
     }
     .Support_description{
-background-color: #A8DADC;
+        h4{
+            font-size: 24px;
+            margin-bottom: 39px;
+            padding-bottom: 17px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            color: #1D3557;
+        }
     }
     .Products_description{
-background-color: #FF5A5A;
+        h4{
+            font-size: 24px;
+            margin-bottom: 39px;
+            padding-bottom: 17px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            color: #1D3557;
+            position: relative;
+          
+        }
+        &::after{
+            width: 20px;
+            height: 5px;
+            background-color: #E63946;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     }
    
 }

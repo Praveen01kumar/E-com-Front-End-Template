@@ -64,12 +64,16 @@
 .header-action-cart{
     background-color: transparent;
     border: none;
-    color: #457B9D;
     font-size: 12px;
     font-weight: 600;
     line-height: 1;
     padding: 0;
     text-transform: uppercase;
+    a{
+        text-decoration: none;
+        color: #457B9D;
+
+       }
 }
 .cart-icon{
     margin-left: 11px;
@@ -116,3 +120,4 @@
          width: 80%;
      }
     }
+   

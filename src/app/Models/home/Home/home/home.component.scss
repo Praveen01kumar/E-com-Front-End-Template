@@ -567,10 +567,9 @@
     border-radius: 100px 100px 0px 0px;
     .footer-head{
         padding: 103px 0 60px;
-        display: flex;
-        flex-direction: row !important;
     }
     .about_description{
+        padding-left: 5rem;
         .img{
             display: inline-block;
             margin-bottom: 40px;
@@ -584,6 +583,12 @@
             line-height: 28px;
             margin-bottom: 33px;
             max-width: 250px;
+            font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.75;
+            color: #457B9D;
     
         }
         .social-icons{
@@ -607,8 +612,92 @@
         
     }
     .Ecommerce_description{
+        padding-left: 5rem;
         h4{
             font-size: 24px;
+            margin-bottom: 39px;
+            padding-bottom: 17px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            padding: 0;
+            margin-top: 0;
+            color: #1D3557;
+            position: relative;
+            &::after{
+                content: "";
+                width: 75px;
+                height: 2px;
+                background-color: #E63946;
+                position: absolute;
+                top: 30px;
+                left: 0px;
+            }
+        }
+        ul{
+            padding: 0px;
+            li{
+                list-style: none;
+                margin: 0 0 20px;
+                color: #457B9D;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+                font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+                transition: all 0.5s ease 0s;
+                &:hover{
+                    padding-left: 0.5rem;
+                    color: #ff5a5a;
+                }
+            }
+        }
+    }
+    .Support_description{
+        padding-left: 5rem;
+        h4{
+            font-size: 24px;
+            padding: 0;
+            margin-bottom: 39px;
+            padding-bottom: 17px;
+            font-family: "Playfair Display", serif;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 0;
+            position: relative;
+            color: #1D3557;
+            &::after{
+                content: "";
+                width: 75px;
+                height: 2px;
+                background-color: #E63946;
+                position: absolute;
+                top: 30px;
+                left: 0px;
+            }
+        }
+        ul{
+            padding: 0px;
+            li{
+                list-style: none;
+                margin: 0 0 20px;
+                color: #457B9D;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+                font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+                transition: all 0.5s ease 0s;
+                &:hover{
+                    padding-left: 0.5rem;
+                    color: #ff5a5a;
+                }
+            }
+        }
+    }
+    .Products_description{
+        padding-left: 5rem;
+        h4{
+            font-size: 24px;
+            padding: 0;
             margin-bottom: 39px;
             padding-bottom: 17px;
             font-family: "Playfair Display", serif;
@@ -633,55 +722,15 @@
                 list-style: none;
                 margin: 0 0 20px;
                 color: #457B9D;
-                font-size: 15px;
+                font-size: 18px;
                 font-weight: 500;
                 cursor: pointer;
                 font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
                 transition: all 0.5s ease 0s;
-            }
-        }
-    }
-    .Support_description{
-        h4{
-            font-size: 24px;
-            margin-bottom: 39px;
-            padding-bottom: 17px;
-            font-family: "Playfair Display", serif;
-            font-weight: 600;
-            line-height: 1.2;
-            margin-top: 0;
-            position: relative;
-            color: #1D3557;
-            &::after{
-                content: "";
-                width: 75px;
-                height: 2px;
-                background-color: #E63946;
-                position: absolute;
-                top: 30px;
-                left: 0px;
-            }
-        }
-    }
-    .Products_description{
-        h4{
-            font-size: 24px;
-            margin-bottom: 39px;
-            padding-bottom: 17px;
-            font-family: "Playfair Display", serif;
-            font-weight: 600;
-            line-height: 1.2;
-            margin-top: 0;
-            color: #1D3557;
-            position: relative;
-            &::after{
-                content: "";
-                width: 75px;
-                height: 2px;
-                background-color: #E63946;
-                position: absolute;
-                top: 30px;
-                left: 0px;
+                &:hover{
+                    padding-left: 0.5rem;
+                    color: #ff5a5a;
+                }
             }
         }
         
